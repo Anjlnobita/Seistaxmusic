@@ -7,7 +7,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from AmritaXMusic import app
 from AmritaXMusic.utils.RAUSHAN_ban import admin_filter
-from AmritaXMusic.utils.database import get_assistant
+from AmritaXMusic.utils.database import get_
 
 links = {}
 
