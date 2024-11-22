@@ -1,4 +1,4 @@
-from AmritaXMusic.utils.mongo import db
+from Seistaxmusic.utils.mongo import db
 
 coupledb = db.couple
 
