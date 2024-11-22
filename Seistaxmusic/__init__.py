@@ -1,8 +1,8 @@
-from AmritaXMusic.core.bot import RAUSHAN
-from AmritaXMusic.core.dir import dirr
-from AmritaXMusic.core.git import git
-from AmritaXMusic.core.userbot import Userbot
-from AmritaXMusic.misc import dbb, heroku
+from Seistaxmusic.core.bot import NOBI
+from Seistaxmusic.core.dir import dirr
+from Seistaxmusic.core.git import git
+from Seistaxmusic.core.userbot import Userbot
+from Seistaxmusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = RAUSHAN()
+app = NOBI()
 api = SafoneAPI()
 userbot = Userbot()
 
