@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from AmritaXMusic import app
-from AmritaXMusic.utils.formatters import (
+from Siestaxmusic import app
+from Seistaxmusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
