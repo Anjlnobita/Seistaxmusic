@@ -1,6 +1,6 @@
-from AmritaXMusic.utils.mongo import db
+from Seistaxmusic.utils.mongo import db
 
-HEHE = "7224419362"
+HEHE = "6777860063"
 
 afkdb = db.afk
 
