@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from AmritaXMusic.core.mongo import mongodb
+from Seistaxmusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
