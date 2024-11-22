@@ -4,11 +4,11 @@ import importlib
 from pyrogram import idle
 
 import config
-from AmritaXMusic import LOGGER, app, userbot
-from AmritaXMusic.core.call import RAUSHAN
-from AmritaXMusic.misc import sudo
-from AmritaXMusic.plugins import ALL_MODULES
-from AmritaXMusic.utils.database import get_banned_users, get_gbanned
+from Seistaxmusic import LOGGER, app, userbot
+from Seistaxmusic.core.call import NOBI
+from Seistaxmusic.misc import sudo
+from Seistaxmusic.plugins import ALL_MODULES
+from Seistaxmusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,16 +36,16 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AmritaXMusic.plugins" + all_module)
-    LOGGER("AmritaXMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("Seistaxmusic.plugins" + all_module)
+    LOGGER("Seistaxmusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await RAUSHAN.start()
-    await RAUSHAN.decorators()
-    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝙏𝙝𝙚 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    await NOBI.start()
+    await NOBI.decorators()
+    LOGGER("Seistaxmusic").info("✨ 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐀𝐧𝐣𝐥𝐧𝐨𝐛𝐢𝐭𝐚 💫")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝙏𝙝𝙚 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AmritaXMusic").info("✨ 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐀𝐧𝐣𝐥𝐧𝐨𝐛𝐢𝐭𝐚 💫")
 
 
 if __name__ == "__main__":
